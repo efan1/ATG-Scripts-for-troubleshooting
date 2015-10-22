@@ -1,6 +1,8 @@
 /*This script will be used to force the eventHandler to push
 messages of subType ORM and ORU.  ONLY USE IF NECESSARY!
-This will cause high memory usage on the system*/
+This will cause high memory usage on the system
+Versions 4.9.1 to 4.12.x
+*/
 
 import com.cds.healthdock.facilities.Facility
 import com.cds.healthdock.messaging.Message

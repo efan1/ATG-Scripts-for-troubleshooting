@@ -1,6 +1,7 @@
 /*This script is used to retry missing orders that have NOT been exposed on the UI
 If the order has already been exposed on the UI, the script will not work.
 Exposed orders need to be resent manually with a different order ID 
+For Healthlogix Versions 4.9.1 to 4.11
 */
 import com.cds.messaging.hl7.*
 import ca.uhn.hl7v2.model.Message as HapiMessage
